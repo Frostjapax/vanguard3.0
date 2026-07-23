@@ -204,7 +204,7 @@ function mostrar_menu() {
     echo -e " [3] ${YELLOW}Calibrar Touchscreen${NC}"
     echo -e " [4] ${CYAN}Gerar Sensi com IA (Free Fire)${NC}"
     echo -e " [5] ${BLUE}Otimização Geral${NC}"
-    echo -e " [6] ${BLUE}Otimização ADB Avançada (Descobre a Porta Automático)${NC}"
+    echo -e " [6] ${BLUE}Otimização ADB Avançada (melhor otimização via adb)${NC}"
     echo -e " [7] ${MAGENTA}vanguard.IO - Falar com IA Universal${NC}"
     if [ "$IS_DEV" = true ]; then
         echo -e " [8] 🛠️ [DEV] Painel de Gerenciamento (10 Comandos)"
